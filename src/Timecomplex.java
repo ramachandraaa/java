@@ -9,11 +9,11 @@ public class Timecomplex {
         int sum=0;
      //   return n*(n+1)/2;//less time of compilation
         for(int i=0;i<n;i++)
-        {
-            sum+=i;
-
-       }
+            sum += i;
 return sum;
+
+
     }
+hii
 
 }
