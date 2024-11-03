@@ -15,4 +15,5 @@ class bankm{
 this.balance =this.balance-amount;
 return balance;
     }
+    
 }
