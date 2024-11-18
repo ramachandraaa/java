@@ -1,16 +1,8 @@
+package Arrays;
   public class higharray {
     private int[] a;
     private int n;
-    public static void main(String[] args) {
-        higharray arr=new higharray(300);
-      arr.insert(10);
-      System.out.println(arr.find(20));
-        
-    }
-
     
-    
-
     public higharray(int size) {
 
         a=new int[size];
@@ -65,6 +57,13 @@
             }
           return true;
     }}
-    
+    public void display()
+    {
+        for (int i = 0; i < n; i++) {
+
+            System.out.println(a[i]);
+        }
+        
+    }
 
 }
