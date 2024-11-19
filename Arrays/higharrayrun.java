@@ -9,6 +9,7 @@ public class higharrayrun {
         arr.insert(13);
         arr.insert(14);
       System.out.println(arr.find(10));
+      //arr.delete(14);
      arr.display();
 
   }
