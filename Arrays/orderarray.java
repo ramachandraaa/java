@@ -6,6 +6,9 @@ public class orderarray {
         orderarray arr=new orderarray(100);
         arr.insert(10);
         arr.insert(100);
+        arr.insert(100);
+        arr.insert(100);
+    System.out.println(arr.find(10));
         arr.display();
     }
     private int[] a;
@@ -30,12 +33,15 @@ n=0;
           }
           if(a[mid]<value)
           {
-         e=mid-1;
+         
+         b=mid+1;
           }
           else 
-          b=mid+1;
+          e=mid-1;
           
         }
+       
+       
 
 
     }
