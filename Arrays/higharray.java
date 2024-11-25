@@ -57,6 +57,22 @@ package Arrays;
             }
           return true;
     }}
+    public int max()
+    {
+        int k;
+        int maxvalue;
+        maxvalue=a[0];
+        
+for(k=1;k<n;k++)
+{
+    if(a[k]>maxvalue)
+    {
+    maxvalue=a[k];
+    
+    }
+}
+return maxvalue;
+    }
     public void display()
     {
         for (int i = 0; i < n; i++) {
