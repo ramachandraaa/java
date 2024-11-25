@@ -2,6 +2,7 @@ package Arrays;
   public class higharray {
     private int[] a;
     private int n;
+    private int maxvalue;
     
     public higharray(int size) {
 
@@ -60,7 +61,7 @@ package Arrays;
     public int max()
     {
         int k;
-        int maxvalue;
+       // int maxvalue;
         maxvalue=a[0];
         
 for(k=1;k<n;k++)
@@ -73,6 +74,18 @@ for(k=1;k<n;k++)
 }
 return maxvalue;
     }
+ public void removemax()
+ {
+    for(int i=0;i<n;i++)
+    {
+        if(a[i]==maxvalue)
+        {
+            a[i]=a[i+1];
+            n--;
+        }
+    }
+ }
+
     public void display()
     {
         for (int i = 0; i < n; i++) {
