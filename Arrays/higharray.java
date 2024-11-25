@@ -2,7 +2,7 @@ package Arrays;
   public class higharray {
     private int[] a;
     private int n;
-    private int maxvalue;
+    public int maxvalue;
     
     public higharray(int size) {
 
@@ -80,8 +80,12 @@ return maxvalue;
     {
         if(a[i]==maxvalue)
         {
-            a[i]=a[i+1];
+            for(int j=0;j<n-1;j++)
+            {
+            a[j]=a[j+1];
+            }
             n--;
+            break;
         }
     }
  }
