@@ -26,16 +26,13 @@ while(i<j)
         list.add(area);
         j--;
     }
-    else { // Case where a[i] == a[j]
+    else {
         area = (j - i) * a[i];
         list.add(area);
         i++;
         j--;
 
-//System.out.println("\nAreas stored in list:");
-      //  for (int val : list) {
-       //     System.out.println(val);
-        //}
+
 int maxele=Collections.max(list);
 System.out.println(maxele);
 
