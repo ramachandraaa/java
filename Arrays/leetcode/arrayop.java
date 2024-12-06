@@ -16,18 +16,25 @@ public class arrayop {
         }
        
         int temp;
-        int x;
+        int x=0;
         int y=n-1;
+        while(y>x)
+        {
         for(x=0;x<n;x++)
         {
+            if(a[y]==0)
+            {
+                y--;
+            }
             if(a[x]==0)
             {
                 temp=a[x];
                 a[x]=a[y];
                 a[y]=temp;
-                j--;
+                y--;
             }
         }
+    }
         for(int k=0;k<n;k++)
         {
             System.out.println(a[k]);
