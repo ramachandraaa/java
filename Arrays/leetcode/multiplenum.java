@@ -8,7 +8,7 @@ public class multiplenum {
 
          for(int i=0;i<n;i++)  
          {
-            for(int j=i+1;j<n-1;j++)
+            for(int j=i+1;j<n;j++)
             {
         if(a[i]==a[j])
 {
@@ -18,13 +18,14 @@ a[k]=a[k+1];
 
     }
     n--;
+    //j--;
 }
 
             }
             
            
          } 
-        n--;
+       
         
          for (int i = 0; i < n; i++) {
            System.out.println(a[i]);
