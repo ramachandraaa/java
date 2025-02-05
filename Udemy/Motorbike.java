@@ -1,18 +1,26 @@
 package Udemy;
 
 public class Motorbike {
+   //callig the constructor by the other constructor
+   public Motorbike()
+   {
+      this(50);
+   }
+   public Motorbike(int Speed)
+   {
+      if(Speed==100)
+      {
+this.Speed=Speed;
+      }
+   }
    private int Speed;
+   
     
-     public void getspeed(int Speed)
-{
-    if(Speed==100)
-    {
-    this.Speed=Speed;
-    }
-    System.out.println("Hey the Bike Has Started!!");
-    System.out.println(Speed);
-    System.out.println(this.Speed);
-   // this.Speed=Speed;
-}
+     public int  getspeed()
+
+   {
+  return this.Speed;
+   }
+
     
 }
