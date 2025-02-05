@@ -11,7 +11,7 @@ public class userin {
             System.out.println("Enter the Number:");
              n=sc.nextInt();
 System.out.println("The number is :"+n);
-//break;
+//break;    
         }while(n>0);
     }
     
