@@ -8,6 +8,9 @@ public class deleterun {
         s.display();
         s.del(4);
         s.display();
+        //System.out.println("Enter insert value:");
+        s.insert(10, 3);
+        s.display();
     }
     
 }

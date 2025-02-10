@@ -40,6 +40,21 @@ if(a[i]==key)
 n--;
     
 }
+void insert(int ele,int pos)
+{
+    n++;
+    for(int j=pos;j<n;j++)
+    {
+        a[j+1]=a[j];
+        
+    }
+    //n++;
+    a[pos]=ele;
+    
+    
+}
+
+
 void display()
 {
     for(int j=0;j<n;j++)
@@ -48,3 +63,4 @@ void display()
     }
 }
 }
+

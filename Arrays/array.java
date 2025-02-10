@@ -21,7 +21,7 @@ public class array {
             System.out.println("The key is found at pos: "+(j+1));
            System.exit(0);
         
-      }r    
+      }
     }
     System.out.println("The element not found");
     
