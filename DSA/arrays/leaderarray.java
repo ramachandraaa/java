@@ -13,7 +13,10 @@ for(int i=0;i<n;i++)
   
 }   
 int i=0;
-int j=n-1;
+//int j=n-1;
+for(i=0;i<n-1;i++)
+{
+    int j=n-1;
 while(j>i)
 {
     if(a[i]>a[j])
@@ -21,11 +24,13 @@ while(j>i)
         j--;
         continue;
     }
+    
 
 }
 if(j==i)
 {
     System.out.println(a[i]);
+}
 }
 
     }
