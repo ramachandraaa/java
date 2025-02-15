@@ -14,11 +14,15 @@ for(int i=0;i<n;i++)
 }   
 int i=0;
 //int j=n-1;
-for(i=0;i<n-1;i++)
+for(i=0;i<n;i++)
 {
     int j=n-1;
 while(j>i)
 {
+    if(a[i] <= a[j])
+    {
+        break;
+    }
     if(a[i]>a[j])
     {
         j--;
