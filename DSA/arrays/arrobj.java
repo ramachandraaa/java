@@ -16,5 +16,9 @@ this.name=name;
             System.out.println(marks[i]);
         }
     }
+    public int len()
+    {
+        return name.length();
+    }
     
 }
