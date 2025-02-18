@@ -34,10 +34,10 @@ System.out.println(av);
     }
 public void max()
 {
-    int max=0;
+    int max=marks[0];
     for(int i=0;i<marks.length;i++)
     {
-        if(marks[i]>max)
+        if(marks[i]<max)
         {
             max=marks[i];
         }
