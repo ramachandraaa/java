@@ -72,6 +72,21 @@ for(int i=0;i<n;i++)
     // System.out.println("Updated Array: " + Arrays.toString(marks));
 }
 System.out.println("Updated Array: " + Arrays.toString(marks));
+sum1=0;
+}
+public void delete(int keypos)
+{
+    int n;
+arr.remove(keypos);
+marks = new int[arr.size()];
+n=marks.length;
+for(int i=0;i<n;i++)
+{
+    marks[i]=arr.get(i);
+    // System.out.println("Updated Array: " + Arrays.toString(marks));
+}
+System.out.println("Updated Array: " + Arrays.toString(marks));
+
 
 }
     
