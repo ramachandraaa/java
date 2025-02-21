@@ -3,7 +3,7 @@ package DSA.arrays;
 
 public class duch {
     public static void main(String[] args) {
-        int [] a={0,1,2,0,1,2};
+        int [] a={0,1,2,0,2,1,2,0};
        int  n=a.length;
      
         int l=0; int m=0; int h=n-1;
@@ -13,7 +13,7 @@ public class duch {
             if(a[m]==0)
             {
                 int temp=a[m];
-               // temp=a[m];
+        // temp=a[m];
                 a[m]=a[l];
                 a[l]=temp;
                 l++;
