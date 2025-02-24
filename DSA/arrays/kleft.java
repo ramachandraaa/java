@@ -6,9 +6,9 @@ public class kleft {
         int arr[]=new int[]{1,2,3,4,5,6,7};
         int n=arr.length;
         int[] k=new int[10];
-        int p=2;
+        int p=3;
         //int i=n-1;
-        for(int l=0;l<n;l++)
+        for(int l=0;l<p;l++)
         {
 k[l]=arr[n-l-1];
         }

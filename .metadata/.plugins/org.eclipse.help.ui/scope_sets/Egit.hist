@@ -1,0 +1,6 @@
+#Sun Feb 23 11:20:25 IST 2025
+__DEFAULT__=false
+expression=Egit
+org.eclipse.help.ui.localSearch.master=true
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true
