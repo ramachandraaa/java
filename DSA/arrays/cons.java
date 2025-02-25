@@ -1,10 +1,11 @@
 package DSA.arrays;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class cons {
    public static void main(String[] args) {
-    int[] arr=new int[]{1,0,1,1,0,0,1,1,1,1,0,1,1,1,0};
+    int[] arr=new int[]{1,0,1,1,0,0,1,1,1,0,0,1,1,0,0};
     int i;
     int n=0;
     //int high=count[0];
@@ -19,11 +20,17 @@ public class cons {
         {
            n++;
         }
+       
+
     }
+    ArrayList<Integer> list=new ArrayList<>();
+   for(int j=0;j<n;j++)
+   {
+    list.add(count[j]);
+   }
+   int maxi=Collections.max(list);
 
-    int max = Arrays.stream(count).max().orElseThrow();
-
-    System.out.println(max);
+    System.out.println(maxi);
 
     
    }
