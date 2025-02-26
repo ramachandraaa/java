@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Users\Ramac\OneDrive\Desktop\java\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-2178751970.index
-1704979481.index
