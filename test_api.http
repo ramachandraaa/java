@@ -1,0 +1,18 @@
+### Test Add Patient API
+POST http://localhost:8080/api/patient/addpatient
+Content-Type: application/json
+
+{
+  "name": "Tejas Rao",
+  "age": 25,
+  "bloodGroup": "O-",
+  "phoneNumber": "6364648120",
+  "address": "789 Silk Board, BTM Layout, Bangalore",
+  "admission": {
+    "admissionDate": "2025-08-05",
+    "reasonForAdmission": "Follow-up consultation for high blood pressure.",
+    "doctor": {
+      "doctorId": "DOC_GEN_001"
+    }
+  }
+}
